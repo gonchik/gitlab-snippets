@@ -2,7 +2,7 @@
 # run the following commands in the GitLab Rails console:
 
 # Numeric ID of the project whose container registry should be cleaned up
-P = 6182
+P = 3733
 
 # Numeric ID of a user with Developer, Maintainer, or Owner role for the project
 # Gonchik Tsymzhitov

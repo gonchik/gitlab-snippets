@@ -1,4 +1,8 @@
 # run all files
+# script for cleaning up invalid references to job artifacts in a GitLab instance.
+# This script can be useful in cases where there might be inconsistencies
+# between the database records and the actual files stored on disk.
+# It helps clean up and maintain the integrity of the GitLab instance's database.
 
 artifacts_deleted = 0
 ::Ci::JobArtifact.find_each do |artifact|
